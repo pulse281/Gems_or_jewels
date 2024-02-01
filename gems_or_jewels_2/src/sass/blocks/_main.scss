@@ -1,0 +1,86 @@
+
+.main {
+    position: relative;
+    color: #FFFFFF;
+
+    & .container {
+        position: relative;
+        overflow: hidden;
+    }
+    &__wrapper {
+        display: flex;
+        background-color: #FFFFFF;
+        background-image: url('../../assets/img/main/Union.png');
+        background-position: center;
+        height: 693px;
+    }
+    &__background {
+        position: absolute;
+        right: 242px;
+        z-index: 0;
+        background: top / cover no-repeat url('../assets/img/main/Rectangle_2.png');
+        max-height: 900px;
+        height: 100%;
+        width: 100%;
+
+    }
+    &__content {
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-left: 50px;
+        padding-top: 176px;
+    }
+    &__description {
+        margin-top: 79px;
+    }
+    &__title {
+        display: block;
+        width: 100%;
+        max-width: 516px;
+    }
+    &__text {
+        margin-top: 23px;
+    }
+
+    &__buttons-group {
+        display: flex;
+        margin-top: 50px;
+        & .button {
+            margin-left: 28px;
+        }
+        & .button:first-child {
+            margin-left: -3px;
+        }
+    }
+
+    &__promo-img {
+        background: right / contain no-repeat url('../assets/img/main/Rectangle_1.png');
+        width: 100%;
+        height: 100%;
+        max-width: 803px;
+        max-height: 436px;
+    }
+    &__promo {
+        display: none;
+    }
+    &__logo {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 43px 50px 0 0;
+        font-size: 40px;
+        line-height: 20px;
+        text-align: right;
+        font-weight: 900;
+        font-family: 'Poppins', sans-serif;
+        color: #FFFFFF; 
+        text-transform: uppercase;
+
+    }
+    &__logo_blue {
+        color: #2663B8;
+    }
+
+}

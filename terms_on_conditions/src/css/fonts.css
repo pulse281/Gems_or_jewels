@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'San Francisco Pro Display Regular';
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Regular.eot');
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Regular.woff') format('woff'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'San Francisco Pro Display Bold';
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Bold.eot');
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Bold.woff') format('woff'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'San Francisco Pro Display Heavy';
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Heavy.eot');
+    src: url('../fonts/SF_Display_Pro/SFProDisplay-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Heavy.woff') format('woff'),
+    url('../fonts/SF_Display_Pro/SFProDisplay-Heavy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+    @font-face {
+        font-family: 'San Francisco Pro Display Light';
+        src: url('../fonts/SF_Display_Pro/SFProDisplay-Light.eot');
+        src: url('../fonts/SF_Display_Pro/SFProDisplay-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SF_Display_Pro/SFProDisplay-Light.woff') format('woff'),
+        url('../fonts/SF_Display_Pro/SFProDisplay-Light.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }

@@ -1,0 +1,63 @@
+.reviews {
+    margin-top: 40px;
+
+
+    & .container {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        background-color: #F0F6FE;
+        border-radius: 40px 40px 0 0;
+    }
+    &__title {
+        text-align: center;
+        color: #95B2D8;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 56px;
+        margin-right: 50px;
+    }
+    &__promo {
+        max-width: 631px;
+        width: 100%;
+        max-height: 432px;
+        background: left / contain no-repeat url('../assets/img/reviews/Rectangle_8.png');
+    }
+
+    &__steps {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        max-width: 710px;
+    }
+    &__item {
+        max-width: 330px;
+    }
+    &__item-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 24px;
+        height: 24px;
+        color: #95B2D8;
+        border: 1px solid #95B2D8;
+        border-radius: 50%;
+    }
+    &__item-title {
+        margin-top: 10px;
+        color: #2663B8;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+    }
+    &__item-text {
+        color: #4F4F4F;
+
+    }
+    &__item:nth-child(3),&__item:nth-child(4) {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+}

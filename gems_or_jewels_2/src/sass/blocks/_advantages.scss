@@ -1,0 +1,66 @@
+.advantages {
+    padding-top: 40px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__title {
+        text-align: center;
+        color: #F2C94C;
+    }
+
+    &__cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 35px;
+        width: 100%;
+        max-width: 1328px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+        background-color: #FFFFFF;
+        color: rgba(79, 79, 79, 1);
+        text-align: center;
+        max-width: 430px;
+        max-height: 505px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(47, 128, 237, 0.15);
+    }
+    &__item:nth-child(2n) {
+        margin: 50px 15px;
+    }
+    &__item-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px auto 0;
+        width: 200px;
+        height: 200px;
+        background-color: #F0F6FE;
+        border-radius: 50%;
+    }
+    &__heart {
+        max-width: 151px;
+        max-height: 144px;
+    }
+    &__item-current {
+        margin-top: 52px;
+        font-family: 'San Francisco Pro Display Heavy';
+        font-size: 36px;
+        line-height: 42.66px;
+        color: #4F4F4F;
+    }
+    &__item-text {
+        margin: 21px 50px 59px;
+
+    }
+    &__button {
+        margin-top: 35px;
+    }
+}

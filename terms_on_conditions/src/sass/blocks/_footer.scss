@@ -1,0 +1,27 @@
+.footer {
+    height: 140px;
+    
+    &__wrapper {
+        background-color: #22426D;
+        padding: 24px 50px 34px;
+    }
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__policy, &__terms {
+        text-decoration: none;
+        font-family: 'San Francisco Pro Display Regular';
+        color: #F2C94C;
+        font-size: 32px;
+        line-height: 37.92px;
+    }
+    &__reserved {
+        font-family: 'San Francisco Pro Display Light';
+        font-size: 10px;
+        line-height: 11.85px;
+        color: #FFFFFF;
+    }
+}

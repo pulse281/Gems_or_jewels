@@ -1,0 +1,250 @@
+@media (max-width: 1300px) {
+    h1 {
+        font-size: 50px;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: center;
+        &__logo {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 1060px) {
+    .footer {
+        background-color: #22426D;
+        height: auto;
+        padding-bottom: 41px;
+        &__wrapper {
+            padding: 0;
+        }
+        &__info {
+            flex-direction: column;
+            margin-top: 52px;
+        }
+        &__policy, &__terms {
+            display: block;
+            text-align: center;
+            font-family: 'San Francisco Pro Display Light';
+        }
+        &__divider {
+            display: none;
+        }
+        &__reserved {
+            margin-top: 26px;
+        }
+        &__nav {
+            flex-direction: column;
+            height: auto;
+        }
+    }
+
+    .menu {
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+        
+        &__item {
+            margin-left: 0;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        &__logo {
+            padding: 0;
+            text-align: center;
+            display: none;
+        }
+            
+    
+        .hamburger {
+            display: none;
+        }
+    }
+
+    .nav {
+        padding-top: 30px;
+
+        &__logo {
+            margin-top: 30px;
+        }
+    }
+    .main {
+        background-color: #2663B8;
+        
+        &__wrapper {
+            background: inherit;
+        }
+        &__background {
+            display: none;
+        }
+        &__logo, &__logo_blue {
+            color: #FFFFFF;
+            width: 100%;
+            padding-top: 150px;
+            text-align: center;
+        }
+    }
+
+    .advantages {
+        &__item {
+            margin: 10px 0 10px;
+        }
+        &__item:nth-child(2n) {
+            margin: 10px;
+        }
+    }
+
+    .reviews {
+        
+        &__content {
+            justify-content: center;
+        }
+        &__promo {
+            display: none;
+        }
+
+    }
+}
+
+
+@media (max-width: 720px) {
+
+    .container {
+        width: 346px;
+    }
+    h1 {
+        font-size: 27.58px;
+        line-height: 9.19px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 47.4px;
+    }
+
+    .header {
+        top: 0;
+    & .container {
+        width: auto;
+    }
+    }
+
+    .hamburger {
+        display: flex;
+        align-items: center;
+        &__item_left,
+        &__item_right {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%) rotate(45deg);
+        }
+        &__item_right {
+            transform: translateY(-50%) rotate(-45deg);
+        }
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        background-color: initial;
+
+        &__wrapper {
+            position: relative;
+            display: none;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 350px;
+            background-color: #22426D;
+        }
+        &__wrapper_active {
+            display: block;
+        }
+        &__item {
+            margin-left: 0;
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        &__logo {
+            display: block;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            bottom: 50px;
+            font-size: 40px;
+            line-height: 20px;
+            font-weight: 900;
+            font-family: 'Poppins', sans-serif;
+            color: #FFFFFF; 
+            text-transform: uppercase;
+            background-color: initial;
+        }
+        
+    }
+
+    .terms {
+        margin-top: 0;
+        padding-top: 114px;
+
+        & .container {
+            width: auto;
+            margin: 0 40px;
+        }
+        &__text {
+            margin: 57px 0;
+        }
+    }
+
+    .disclaimer {
+        background-color: rgba(217, 217, 217, 0.25);
+        
+        & .container {
+            background-color: initial;
+            width: auto;
+            margin: 0 50px;
+        }
+        &__title {
+            margin-left: 0;
+            font-size: 24px;
+            line-height: 32px;
+
+        }
+        &__text {
+            margin: 0;
+            margin-top: 18px;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: justify;
+        }
+    }
+
+    .form {
+        & .container {
+            width: auto;
+        }
+        &__img {
+            height: auto;
+            min-height: 117px;
+            background-size: cover;
+            background: center / cover no-repeat url("../assets/img/form/Rectangle_9_mob.png");
+        }
+    }
+
+    .nav {
+        &__links {
+            display: flex;
+            margin-top: 30px;
+            margin-bottom: 24px;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            height: auto;
+            min-height: 50px;
+            width: 219px;
+        }
+        &__item {
+            display: block;
+            margin: 0;
+        }
+    }
+}
+

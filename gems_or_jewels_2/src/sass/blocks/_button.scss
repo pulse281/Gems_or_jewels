@@ -1,0 +1,24 @@
+.button {
+    display: block;
+    min-width: 170px;
+    height: 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    &:active {
+        scale: 103%;
+    }
+
+    &_play-market {
+        background: center / contain no-repeat url('../assets/img/main/image_11.png');
+    }
+
+    &_advantages {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #F2C94C;
+        border: 1px solid #FFFFFF;
+        border-radius: 15px;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,51 @@
+@import "node_modules/normalize-scss/sass/normalize/import-now";
+@import '../css/fonts.css';
+* { 
+    box-sizing:border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 60px;
+    font-family: 'San Francisco Pro Display Heavy';
+}
+
+h2 {
+    font-family: 'San Francisco Pro Display Heavy';
+    font-size: 60px;
+    line-height: 71.1px;
+    margin: 0;
+}
+h2::first-letter {
+    text-transform: uppercase;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+body {
+    position: relative;
+    background-color: #2663B8;
+}
+
+@import 'blocks/header.scss';
+@import 'blocks/nav.scss';
+@import 'blocks/terms.scss';
+@import 'blocks/disclaimer.scss';
+@import 'blocks/form.scss';
+@import 'blocks/footer.scss';
+@import 'blocks/menu.scss';
+
+@import 'blocks/media.scss';
+@import 'blocks/show-hide.scss';
